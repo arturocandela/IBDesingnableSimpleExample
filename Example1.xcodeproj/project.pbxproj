@@ -14,6 +14,8 @@
 		69BF76781BDBF28100B9AA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BF76771BDBF28100B9AA6C /* Assets.xcassets */; };
 		69BF767B1BDBF28100B9AA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BF76791BDBF28100B9AA6C /* LaunchScreen.storyboard */; };
 		69BF76861BDBF28100B9AA6C /* Example1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BF76851BDBF28100B9AA6C /* Example1Tests.m */; };
+		69BF76921BDCC9B400B9AA6C /* EmbeddedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BF76911BDCC9B400B9AA6C /* EmbeddedView.m */; };
+		69BF76941BDCC9D100B9AA6C /* EmbeddedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69BF76931BDCC9D100B9AA6C /* EmbeddedView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		69BF76811BDBF28100B9AA6C /* Example1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Example1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BF76851BDBF28100B9AA6C /* Example1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example1Tests.m; sourceTree = "<group>"; };
 		69BF76871BDBF28100B9AA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BF76901BDCC9B400B9AA6C /* EmbeddedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddedView.h; sourceTree = "<group>"; };
+		69BF76911BDCC9B400B9AA6C /* EmbeddedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbeddedView.m; sourceTree = "<group>"; };
+		69BF76931BDCC9D100B9AA6C /* EmbeddedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmbeddedView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,9 @@
 				69BF76791BDBF28100B9AA6C /* LaunchScreen.storyboard */,
 				69BF767C1BDBF28100B9AA6C /* Info.plist */,
 				69BF766B1BDBF28000B9AA6C /* Supporting Files */,
+				69BF76901BDCC9B400B9AA6C /* EmbeddedView.h */,
+				69BF76911BDCC9B400B9AA6C /* EmbeddedView.m */,
+				69BF76931BDCC9D100B9AA6C /* EmbeddedView.xib */,
 			);
 			path = Example1;
 			sourceTree = "<group>";
@@ -195,6 +203,7 @@
 			files = (
 				69BF767B1BDBF28100B9AA6C /* LaunchScreen.storyboard in Resources */,
 				69BF76781BDBF28100B9AA6C /* Assets.xcassets in Resources */,
+				69BF76941BDCC9D100B9AA6C /* EmbeddedView.xib in Resources */,
 				69BF76761BDBF28000B9AA6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +224,7 @@
 			files = (
 				69BF76731BDBF28000B9AA6C /* ViewController.m in Sources */,
 				69BF76701BDBF28000B9AA6C /* AppDelegate.m in Sources */,
+				69BF76921BDCC9B400B9AA6C /* EmbeddedView.m in Sources */,
 				69BF766D1BDBF28000B9AA6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
